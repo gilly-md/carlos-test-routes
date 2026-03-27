@@ -3,116 +3,223 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Driving Test Routes with Google Maps</title>
+  <title>Driving Test Routes</title>
   <style>
+    *, *::before, *::after { box-sizing: border-box; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      max-width: 600px;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', sans-serif;
+      max-width: 680px;
       margin: 0 auto;
-      padding: 40px 20px;
-      background: #f5f5f5;
-      color: #333;
+      padding: 60px 24px 80px;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      -webkit-font-smoothing: antialiased;
     }
-    h1 { color: #1a73e8; }
+    h1 {
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      font-size: 17px;
+      color: #86868b;
+      font-weight: 400;
+      line-height: 1.5;
+      margin-bottom: 40px;
+    }
+
+    /* Centre cards */
     .card {
-      background: white;
-      border-radius: 8px;
-      padding: 20px;
-      margin-bottom: 16px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    .card a {
+      background: rgba(255,255,255,0.72);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(0,0,0,0.04);
+      border-radius: 16px;
+      padding: 24px 28px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       text-decoration: none;
-      color: #1a9e8a;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    }
+    .card-info h2 {
       font-size: 20px;
       font-weight: 600;
+      margin: 0;
+      color: #1d1d1f;
+      letter-spacing: -0.01em;
     }
-    .card a:hover { color: #1a73e8; }
-    .card p { margin: 8px 0 0; color: #666; font-size: 14px; }
-    .help-section {
-      background: white;
-      border-radius: 8px;
-      padding: 20px 24px;
-      margin-top: 32px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    .help-section h2 {
-      color: #1a9e8a;
-      margin-top: 0;
-      font-size: 18px;
-    }
-    .help-section h3 {
-      font-size: 15px;
-      margin: 18px 0 8px;
-      color: #444;
-    }
-    .help-section p, .help-section li {
+    .card-info p {
+      margin: 4px 0 0;
       font-size: 14px;
-      line-height: 1.6;
-      color: #555;
+      color: #86868b;
     }
-    .help-section ul { padding-left: 20px; }
-    .help-section li { margin-bottom: 6px; }
-    .badge {
-      display: inline-block;
-      padding: 2px 8px;
+    .card-arrow {
+      font-size: 20px;
+      color: #86868b;
+      transition: transform 0.2s ease;
+    }
+    .card:hover .card-arrow {
+      transform: translateX(4px);
+      color: #0071e3;
+    }
+
+    /* Divider */
+    .divider {
+      height: 1px;
+      background: rgba(0,0,0,0.06);
+      margin: 48px 0 40px;
+    }
+
+    /* Help section */
+    .help h2 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 6px;
+    }
+    .help .help-sub {
+      font-size: 15px;
+      color: #86868b;
+      margin-bottom: 32px;
+      line-height: 1.5;
+    }
+
+    .option {
+      background: rgba(255,255,255,0.72);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(0,0,0,0.04);
+      border-radius: 16px;
+      padding: 24px 28px;
+      margin-bottom: 12px;
+    }
+    .option-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .option-icon {
+      width: 40px;
+      height: 40px;
       border-radius: 10px;
-      font-size: 12px;
-      font-weight: 600;
-      color: white;
-      vertical-align: middle;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
     }
-    .badge-blue { background: #1a73e8; }
-    .badge-green { background: #34a853; }
+    .option-icon.maps { background: linear-gradient(135deg, #4285f4, #34a4f4); }
+    .option-icon.gpx { background: linear-gradient(135deg, #30d158, #28a745); }
+    .option h3 {
+      font-size: 17px;
+      font-weight: 600;
+      margin: 0;
+      letter-spacing: -0.01em;
+    }
+    .option p, .option li {
+      font-size: 14px;
+      line-height: 1.7;
+      color: #6e6e73;
+    }
+    .option ul {
+      padding-left: 18px;
+      margin: 0;
+    }
+    .option li { margin-bottom: 8px; }
+    .option li:last-child { margin-bottom: 0; }
+    .option li strong { color: #1d1d1f; font-weight: 600; }
+
     .tech-note {
-      background: #f0f7ff;
-      border-left: 3px solid #1a73e8;
-      padding: 10px 14px;
-      margin-top: 16px;
-      border-radius: 0 4px 4px 0;
+      background: rgba(0,113,227,0.04);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-top: 20px;
       font-size: 13px;
-      color: #555;
+      line-height: 1.65;
+      color: #6e6e73;
+    }
+    .tech-note strong { color: #1d1d1f; }
+    .tech-note code {
+      font-family: 'SF Mono', 'Menlo', monospace;
+      font-size: 12px;
+      background: rgba(0,0,0,0.04);
+      padding: 2px 6px;
+      border-radius: 4px;
     }
   </style>
 </head>
 <body>
+
   <h1>Driving Test Routes</h1>
-  <p style="margin-bottom: 24px;">Select a test centre to view routes with Google Maps directions and downloadable GPX files for your car's GPS:</p>
-  <div class="card">
-    <a href="BarnetDrivingTestRoutes.html">Barnet Test Centre</a>
-    <p>9 routes</p>
-  </div>
-  <div class="card">
-    <a href="MillHillDrivingTestRoutes.html">Mill Hill Test Centre</a>
-    <p>9 routes</p>
-  </div>
-  <div class="card">
-    <a href="WoodGreenDrivingTestRoutes.html">Wood Green Test Centre</a>
-    <p>8 routes</p>
-  </div>
+  <p class="subtitle">Google Maps directions and downloadable GPX files for your car's sat nav.</p>
 
-  <div class="help-section">
-    <h2>How to Use These Routes</h2>
-    <p>Each route page gives you two options: a <span class="badge badge-blue">View on Google Maps</span> link and a <span class="badge badge-green">Download GPX</span> file. Choose whichever works best with your setup.</p>
+  <a class="card" href="BarnetDrivingTestRoutes.html">
+    <div class="card-info">
+      <h2>Barnet</h2>
+      <p>9 routes</p>
+    </div>
+    <span class="card-arrow">&rsaquo;</span>
+  </a>
 
-    <h3>Option 1: Google Maps (phone / CarPlay / Android Auto)</h3>
-    <ul>
-      <li>Tap <span class="badge badge-blue">View on Google Maps</span> on your phone to open the route directly in the Google Maps app.</li>
-      <li>Press <strong>Start</strong> in Google Maps and it will give you turn-by-turn navigation.</li>
-      <li>If your car supports <strong>Apple CarPlay</strong> or <strong>Android Auto</strong>, the navigation will automatically mirror to your car's screen.</li>
-    </ul>
+  <a class="card" href="MillHillDrivingTestRoutes.html">
+    <div class="card-info">
+      <h2>Mill Hill</h2>
+      <p>9 routes</p>
+    </div>
+    <span class="card-arrow">&rsaquo;</span>
+  </a>
 
-    <h3>Option 2: GPX File (USB / built-in sat nav / GPS device)</h3>
-    <ul>
-      <li><strong>USB import (BMW, Mercedes, VW, Audi, etc.):</strong> Copy the <code>.gpx</code> file to a USB stick, plug it into your car, and look for an "Import route" or "Load GPX" option in the navigation menu.</li>
-      <li><strong>Garmin:</strong> Connect the device to your computer via USB. Copy the GPX file into the <code>Garmin/GPX</code> folder, then eject and select the route from "Where To?" &gt; "Saved" &gt; "Routes".</li>
-      <li><strong>TomTom:</strong> Use TomTom MyDrive to import the GPX file, or copy it to the device's internal storage and import via the route planner.</li>
-      <li><strong>Tesla:</strong> Tesla does not natively support GPX import. Use the Google Maps link on your phone and share the destination to the Tesla app instead.</li>
-    </ul>
+  <a class="card" href="WoodGreenDrivingTestRoutes.html">
+    <div class="card-info">
+      <h2>Wood Green</h2>
+      <p>8 routes</p>
+    </div>
+    <span class="card-arrow">&rsaquo;</span>
+  </a>
 
-    <div class="tech-note">
-      <strong>Technical note:</strong> The GPX files use the <code>&lt;rte&gt;</code> (route) format with named <code>&lt;rtept&gt;</code> waypoints. Your car's GPS will automatically calculate the driving path between each waypoint. The waypoints mark key junctions and road changes along the test route &mdash; the detailed turn-by-turn directions are shown in the tables on each route page.
+  <div class="divider"></div>
+
+  <div class="help">
+    <h2>How to Use</h2>
+    <p class="help-sub">Each route has two buttons. Pick whichever suits your setup.</p>
+
+    <div class="option">
+      <div class="option-header">
+        <div class="option-icon maps">&#9678;</div>
+        <h3>Google Maps</h3>
+      </div>
+      <ul>
+        <li>Tap <strong>View on Google Maps</strong> on your phone to open the route in the Google Maps app.</li>
+        <li>Press <strong>Start</strong> for turn-by-turn navigation.</li>
+        <li>Using <strong>Apple CarPlay</strong> or <strong>Android Auto</strong>? The navigation mirrors to your car's screen automatically.</li>
+      </ul>
+    </div>
+
+    <div class="option">
+      <div class="option-header">
+        <div class="option-icon gpx">&#9881;</div>
+        <h3>GPX File</h3>
+      </div>
+      <ul>
+        <li><strong>BMW, Mercedes, VW, Audi</strong> &mdash; Copy the <code>.gpx</code> file to a USB stick, plug it in, and import via the navigation menu.</li>
+        <li><strong>Garmin</strong> &mdash; Connect via USB, copy the file to <code>Garmin/GPX</code>, then find it under Where To? &gt; Saved &gt; Routes.</li>
+        <li><strong>TomTom</strong> &mdash; Import via TomTom MyDrive, or copy directly to the device and use the route planner.</li>
+        <li><strong>Tesla</strong> &mdash; GPX isn't supported natively. Use the Google Maps link and share the destination via the Tesla app.</li>
+      </ul>
+
+      <div class="tech-note">
+        <strong>Technical note</strong> &mdash; GPX files use the <code>&lt;rte&gt;</code> format with named <code>&lt;rtept&gt;</code> waypoints at key junctions. Your GPS calculates the driving path between each point automatically. Full turn-by-turn detail is in the tables on each route page.
+      </div>
     </div>
   </div>
+
 </body>
 </html>
