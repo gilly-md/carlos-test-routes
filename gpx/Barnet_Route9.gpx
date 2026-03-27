@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Barnet Route 9</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>Barnet Route 9</name>
+    <rtept lat="51.649700" lon="-0.196300">
+      <name>1. Barnet Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.653019" lon="-0.201258">
+      <name>2. Wood Street</name>
+    </rtept>
+    <rtept lat="51.654127" lon="-0.207701">
+      <name>3. The Avenue</name>
+    </rtept>
+    <rtept lat="51.656466" lon="-0.207025">
+      <name>4. Alston Road</name>
+    </rtept>
+    <rtept lat="51.656654" lon="-0.202545">
+      <name>5. St Albans Road</name>
+    </rtept>
+    <rtept lat="51.652539" lon="-0.220572">
+      <name>6. Galley Lane</name>
+    </rtept>
+    <rtept lat="51.654355" lon="-0.217844">
+      <name>7. Kings Road</name>
+    </rtept>
+    <rtept lat="51.655676" lon="-0.204494">
+      <name>8. Stapylton Road</name>
+    </rtept>
+    <rtept lat="51.653706" lon="-0.201527">
+      <name>9. Barnet High Street</name>
+    </rtept>
+    <rtept lat="51.649700" lon="-0.196300">
+      <name>10. Barnet Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Barnet Route 2</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>Barnet Route 2</name>
+    <rtept lat="51.649700" lon="-0.196300">
+      <name>1. Barnet Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.646285" lon="-0.190068">
+      <name>2. Fairfield Way</name>
+    </rtept>
+    <rtept lat="51.643240" lon="-0.187480">
+      <name>3. Sherrards Way</name>
+    </rtept>
+    <rtept lat="51.647500" lon="-0.192000">
+      <name>4. Grosvenor Avenue</name>
+    </rtept>
+    <rtept lat="51.653019" lon="-0.201258">
+      <name>5. Wood Street</name>
+    </rtept>
+    <rtept lat="51.652539" lon="-0.220572">
+      <name>6. Galley Lane</name>
+    </rtept>
+    <rtept lat="51.643663" lon="-0.254195">
+      <name>7. Barnet Bypass</name>
+    </rtept>
+    <rtept lat="51.640369" lon="-0.239392">
+      <name>8. Barnet Gate Lane</name>
+    </rtept>
+    <rtept lat="51.649700" lon="-0.196300">
+      <name>9. Barnet Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>WoodGreen Route 5</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>WoodGreen Route 5</name>
+    <rtept lat="51.598592" lon="-0.104403">
+      <name>1. Wood Green Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.601099" lon="-0.102814">
+      <name>2. Dunbar Road</name>
+    </rtept>
+    <rtept lat="51.604157" lon="-0.066260">
+      <name>3. White Hart Lane</name>
+    </rtept>
+    <rtept lat="51.610500" lon="-0.095000">
+      <name>4. Norfolk Avenue</name>
+    </rtept>
+    <rtept lat="51.611268" lon="-0.109416">
+      <name>5. Tottenhall Road</name>
+    </rtept>
+    <rtept lat="51.613500" lon="-0.110000">
+      <name>6. Pasteur Gardens</name>
+    </rtept>
+    <rtept lat="51.606112" lon="-0.103653">
+      <name>7. Wolves Lane</name>
+    </rtept>
+    <rtept lat="51.601664" lon="-0.096992">
+      <name>8. Paisley Road</name>
+    </rtept>
+    <rtept lat="51.601002" lon="-0.094132">
+      <name>9. Norman Avenue</name>
+    </rtept>
+    <rtept lat="51.598592" lon="-0.104403">
+      <name>10. Wood Green Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

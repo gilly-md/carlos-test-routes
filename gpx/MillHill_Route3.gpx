@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>MillHill Route 3</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>MillHill Route 3</name>
+    <rtept lat="51.613000" lon="-0.229000">
+      <name>1. Mill Hill Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.607504" lon="-0.273775">
+      <name>2. Deansbrook Road</name>
+    </rtept>
+    <rtept lat="51.609746" lon="-0.265647">
+      <name>3. Deans Lane</name>
+    </rtept>
+    <rtept lat="51.612933" lon="-0.256648">
+      <name>4. Hale Drive</name>
+    </rtept>
+    <rtept lat="51.621462" lon="-0.260076">
+      <name>5. Stoneyfields Lane</name>
+    </rtept>
+    <rtept lat="51.621611" lon="-0.274145">
+      <name>6. Broadfields Avenue</name>
+    </rtept>
+    <rtept lat="51.616707" lon="-0.273887">
+      <name>7. Hale Lane</name>
+    </rtept>
+    <rtept lat="51.605565" lon="-0.264120">
+      <name>8. Orange Hill Road</name>
+    </rtept>
+    <rtept lat="51.606000" lon="-0.238000">
+      <name>9. Woodcroft Avenue</name>
+    </rtept>
+    <rtept lat="51.613000" lon="-0.229000">
+      <name>10. Mill Hill Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

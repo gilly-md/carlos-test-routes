@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>MillHill Route 8</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>MillHill Route 8</name>
+    <rtept lat="51.613000" lon="-0.229000">
+      <name>1. Mill Hill Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.609040" lon="-0.236405">
+      <name>2. Copthall Drive</name>
+    </rtept>
+    <rtept lat="51.609570" lon="-0.228295">
+      <name>3. Wise Lane</name>
+    </rtept>
+    <rtept lat="51.612947" lon="-0.241690">
+      <name>4. Watford Way</name>
+    </rtept>
+    <rtept lat="51.604985" lon="-0.207623">
+      <name>5. Holders Hill Road</name>
+    </rtept>
+    <rtept lat="51.607869" lon="-0.220744">
+      <name>6. Devonshire Road</name>
+    </rtept>
+    <rtept lat="51.608888" lon="-0.224421">
+      <name>7. Pursley Road</name>
+    </rtept>
+    <rtept lat="51.607902" lon="-0.232229">
+      <name>8. Page Street</name>
+    </rtept>
+    <rtept lat="51.610042" lon="-0.244086">
+      <name>9. Flower Lane</name>
+    </rtept>
+    <rtept lat="51.613000" lon="-0.229000">
+      <name>10. Mill Hill Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Barnet Route 1</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>Barnet Route 1</name>
+    <rtept lat="51.649700" lon="-0.196300">
+      <name>1. Barnet Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.651916" lon="-0.197768">
+      <name>2. High Street</name>
+    </rtept>
+    <rtept lat="51.656654" lon="-0.202545">
+      <name>3. St Albans Road</name>
+    </rtept>
+    <rtept lat="51.655676" lon="-0.204494">
+      <name>4. Stapylton Road</name>
+    </rtept>
+    <rtept lat="51.653019" lon="-0.201258">
+      <name>5. Wood Street</name>
+    </rtept>
+    <rtept lat="51.640369" lon="-0.239392">
+      <name>6. Barnet Gate Lane</name>
+    </rtept>
+    <rtept lat="51.642769" lon="-0.210275">
+      <name>7. Connaught Road</name>
+    </rtept>
+    <rtept lat="51.647066" lon="-0.195269">
+      <name>8. Mays Lane</name>
+    </rtept>
+    <rtept lat="51.648955" lon="-0.197409">
+      <name>9. Milton Avenue</name>
+    </rtept>
+    <rtept lat="51.649700" lon="-0.196300">
+      <name>10. Barnet Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

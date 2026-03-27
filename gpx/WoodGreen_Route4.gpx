@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>WoodGreen Route 4</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>WoodGreen Route 4</name>
+    <rtept lat="51.598592" lon="-0.104403">
+      <name>1. Wood Green Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.598053" lon="-0.092185">
+      <name>2. Downhills Way</name>
+    </rtept>
+    <rtept lat="51.589748" lon="-0.085589">
+      <name>3. Downhills Park Road</name>
+    </rtept>
+    <rtept lat="51.590915" lon="-0.088127">
+      <name>4. Higham Road</name>
+    </rtept>
+    <rtept lat="51.599958" lon="-0.080017">
+      <name>5. The Roundway</name>
+    </rtept>
+    <rtept lat="51.606112" lon="-0.103653">
+      <name>6. Wolves Lane</name>
+    </rtept>
+    <rtept lat="51.608000" lon="-0.105500">
+      <name>7. Medesenge Way</name>
+    </rtept>
+    <rtept lat="51.601664" lon="-0.096992">
+      <name>8. Paisley Road</name>
+    </rtept>
+    <rtept lat="51.601002" lon="-0.094132">
+      <name>9. Norman Avenue</name>
+    </rtept>
+    <rtept lat="51.598592" lon="-0.104403">
+      <name>10. Wood Green Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

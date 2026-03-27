@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Barnet Route 8</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>Barnet Route 8</name>
+    <rtept lat="51.649700" lon="-0.196300">
+      <name>1. Barnet Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.648371" lon="-0.181202">
+      <name>2. Station Road</name>
+    </rtept>
+    <rtept lat="51.650416" lon="-0.167483">
+      <name>3. Victoria Road</name>
+    </rtept>
+    <rtept lat="51.652139" lon="-0.167549">
+      <name>4. Park Road</name>
+    </rtept>
+    <rtept lat="51.643825" lon="-0.161037">
+      <name>5. Cat Hill</name>
+    </rtept>
+    <rtept lat="51.643000" lon="-0.159500">
+      <name>6. Bramley Road</name>
+    </rtept>
+    <rtept lat="51.648505" lon="-0.142828">
+      <name>7. Westpole Avenue</name>
+    </rtept>
+    <rtept lat="51.648380" lon="-0.147149">
+      <name>8. Cockfosters Road</name>
+    </rtept>
+    <rtept lat="51.650249" lon="-0.173024">
+      <name>9. East Barnet Road</name>
+    </rtept>
+    <rtept lat="51.649700" lon="-0.196300">
+      <name>10. Barnet Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

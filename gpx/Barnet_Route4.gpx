@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Barnet Route 4</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>Barnet Route 4</name>
+    <rtept lat="51.649700" lon="-0.196300">
+      <name>1. Barnet Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.648371" lon="-0.181202">
+      <name>2. Station Road</name>
+    </rtept>
+    <rtept lat="51.650295" lon="-0.184176">
+      <name>3. Warwick Road</name>
+    </rtept>
+    <rtept lat="51.653063" lon="-0.182213">
+      <name>4. Potters Road</name>
+    </rtept>
+    <rtept lat="51.655522" lon="-0.183179">
+      <name>5. Hadley Road</name>
+    </rtept>
+    <rtept lat="51.665333" lon="-0.199215">
+      <name>6. Hadley Highstone</name>
+    </rtept>
+    <rtept lat="51.667412" lon="-0.198782">
+      <name>7. Kitts End Road</name>
+    </rtept>
+    <rtept lat="51.662000" lon="-0.202000">
+      <name>8. Dancers Hill Lane</name>
+    </rtept>
+    <rtept lat="51.656654" lon="-0.202545">
+      <name>9. St Albans Road</name>
+    </rtept>
+    <rtept lat="51.649700" lon="-0.196300">
+      <name>10. Barnet Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

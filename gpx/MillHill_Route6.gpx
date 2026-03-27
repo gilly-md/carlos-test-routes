@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>MillHill Route 6</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>MillHill Route 6</name>
+    <rtept lat="51.613000" lon="-0.229000">
+      <name>1. Mill Hill Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.606000" lon="-0.238000">
+      <name>2. Woodcroft Avenue</name>
+    </rtept>
+    <rtept lat="51.598384" lon="-0.262003">
+      <name>3. Montrose Avenue</name>
+    </rtept>
+    <rtept lat="51.598000" lon="-0.243000">
+      <name>4. Grahame Park Way</name>
+    </rtept>
+    <rtept lat="51.601000" lon="-0.240500">
+      <name>5. Aerodrome Road</name>
+    </rtept>
+    <rtept lat="51.605000" lon="-0.229000">
+      <name>6. Greyhound Hill</name>
+    </rtept>
+    <rtept lat="51.613266" lon="-0.248421">
+      <name>7. Station Road</name>
+    </rtept>
+    <rtept lat="51.615000" lon="-0.251000">
+      <name>8. Edgeworth Avenue</name>
+    </rtept>
+    <rtept lat="51.612947" lon="-0.241690">
+      <name>9. Watford Way</name>
+    </rtept>
+    <rtept lat="51.613000" lon="-0.229000">
+      <name>10. Mill Hill Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

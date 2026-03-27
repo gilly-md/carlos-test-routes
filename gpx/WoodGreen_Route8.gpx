@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>WoodGreen Route 8</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>WoodGreen Route 8</name>
+    <rtept lat="51.598592" lon="-0.104403">
+      <name>1. Wood Green Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.597788" lon="-0.119246">
+      <name>2. Station Road</name>
+    </rtept>
+    <rtept lat="51.600570" lon="-0.115642">
+      <name>3. Park Avenue</name>
+    </rtept>
+    <rtept lat="51.605000" lon="-0.125000">
+      <name>4. Bounds Green Road</name>
+    </rtept>
+    <rtept lat="51.614500" lon="-0.129000">
+      <name>5. Powys Lane</name>
+    </rtept>
+    <rtept lat="51.617500" lon="-0.121000">
+      <name>6. Broomfield Lane</name>
+    </rtept>
+    <rtept lat="51.615500" lon="-0.115000">
+      <name>7. Green Lane</name>
+    </rtept>
+    <rtept lat="51.604157" lon="-0.066260">
+      <name>8. White Hart Lane</name>
+    </rtept>
+    <rtept lat="51.601664" lon="-0.096992">
+      <name>9. Paisley Road</name>
+    </rtept>
+    <rtept lat="51.598592" lon="-0.104403">
+      <name>10. Wood Green Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

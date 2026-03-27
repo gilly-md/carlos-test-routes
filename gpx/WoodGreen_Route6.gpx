@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>WoodGreen Route 6</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>WoodGreen Route 6</name>
+    <rtept lat="51.598592" lon="-0.104403">
+      <name>1. Wood Green Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.598385" lon="-0.091208">
+      <name>2. Turnant Road</name>
+    </rtept>
+    <rtept lat="51.599751" lon="-0.084879">
+      <name>3. Risley Avenue</name>
+    </rtept>
+    <rtept lat="51.601351" lon="-0.084881">
+      <name>4. De Quincey Road</name>
+    </rtept>
+    <rtept lat="51.597500" lon="-0.083500">
+      <name>5. Awfield Avenue</name>
+    </rtept>
+    <rtept lat="51.599958" lon="-0.080017">
+      <name>6. The Roundway</name>
+    </rtept>
+    <rtept lat="51.604157" lon="-0.066260">
+      <name>7. White Hart Lane</name>
+    </rtept>
+    <rtept lat="51.606112" lon="-0.103653">
+      <name>8. Wolves Lane</name>
+    </rtept>
+    <rtept lat="51.601664" lon="-0.096992">
+      <name>9. Paisley Road</name>
+    </rtept>
+    <rtept lat="51.598592" lon="-0.104403">
+      <name>10. Wood Green Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

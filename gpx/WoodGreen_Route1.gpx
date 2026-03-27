@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>WoodGreen Route 1</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>WoodGreen Route 1</name>
+    <rtept lat="51.598592" lon="-0.104403">
+      <name>1. Wood Green Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.601838" lon="-0.097897">
+      <name>2. Perth Road</name>
+    </rtept>
+    <rtept lat="51.604157" lon="-0.066260">
+      <name>3. White Hart Lane</name>
+    </rtept>
+    <rtept lat="51.605676" lon="-0.086861">
+      <name>4. Rowland Hill Avenue</name>
+    </rtept>
+    <rtept lat="51.615278" lon="-0.066901">
+      <name>5. Silver Street</name>
+    </rtept>
+    <rtept lat="51.621345" lon="-0.082815">
+      <name>6. Westerham Avenue</name>
+    </rtept>
+    <rtept lat="51.619261" lon="-0.075601">
+      <name>7. Haselbury Road</name>
+    </rtept>
+    <rtept lat="51.606112" lon="-0.103653">
+      <name>8. Wolves Lane</name>
+    </rtept>
+    <rtept lat="51.598592" lon="-0.104403">
+      <name>9. Wood Green Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>

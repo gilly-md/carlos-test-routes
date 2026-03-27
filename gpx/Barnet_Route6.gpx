@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="DrivingTestRoutes"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Barnet Route 6</name>
+    <desc>Driving test route - approximate waypoints for GPS navigation</desc>
+  </metadata>
+  <rte>
+    <name>Barnet Route 6</name>
+    <rtept lat="51.649700" lon="-0.196300">
+      <name>1. Barnet Driving Test Centre</name>
+    </rtept>
+    <rtept lat="51.647841" lon="-0.191737">
+      <name>2. Underhill</name>
+    </rtept>
+    <rtept lat="51.643928" lon="-0.206757">
+      <name>3. Mayhill Road</name>
+    </rtept>
+    <rtept lat="51.643825" lon="-0.205226">
+      <name>4. Valley View</name>
+    </rtept>
+    <rtept lat="51.640369" lon="-0.239392">
+      <name>5. Barnet Gate Lane</name>
+    </rtept>
+    <rtept lat="51.644771" lon="-0.253599">
+      <name>6. A1 Barnet Bypass</name>
+    </rtept>
+    <rtept lat="51.655340" lon="-0.251316">
+      <name>7. Rowley Lane</name>
+    </rtept>
+    <rtept lat="51.647895" lon="-0.231064">
+      <name>8. Rowley Green Road</name>
+    </rtept>
+    <rtept lat="51.653019" lon="-0.201258">
+      <name>9. Wood Street</name>
+    </rtept>
+    <rtept lat="51.649700" lon="-0.196300">
+      <name>10. Barnet Driving Test Centre</name>
+    </rtept>
+  </rte>
+</gpx>
