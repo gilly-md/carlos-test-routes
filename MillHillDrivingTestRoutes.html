@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mill Hill Driving Test Centre Routes</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', sans-serif;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      -webkit-font-smoothing: antialiased;
+    }
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 500;
+      color: #0071e3;
+      margin-bottom: 24px;
+    }
+    .back:hover { text-decoration: underline; }
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 6px;
+    }
+    .notice {
+      font-size: 14px;
+      color: #86868b;
+      line-height: 1.6;
+      margin-bottom: 36px;
+      padding: 0;
+      border: none;
+      background: none;
+    }
+    .route {
+      background: rgba(255,255,255,0.72);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(0,0,0,0.04);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 16px;
+      transition: box-shadow 0.2s ease;
+    }
+    .route:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+    .route h2 {
+      color: #1d1d1f;
+      margin-top: 0;
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+    .btn-group { display: flex; gap: 8px; flex-wrap: wrap; }
+    .maps-btn, .gpx-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      padding: 8px 18px;
+      border-radius: 980px;
+      font-size: 13px;
+      font-weight: 500;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+    .maps-btn {
+      background: #0071e3;
+      color: white;
+    }
+    .maps-btn:hover { background: #0060c0; }
+    .gpx-btn {
+      background: rgba(0,0,0,0.06);
+      color: #1d1d1f;
+    }
+    .gpx-btn:hover { background: rgba(0,0,0,0.10); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th {
+      text-align: left;
+      padding: 10px 16px;
+      color: #86868b;
+      font-weight: 500;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      background: none;
+    }
+    td {
+      padding: 10px 16px;
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+      color: #1d1d1f;
+    }
+    td:nth-child(2) { color: #6e6e73; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: rgba(0,0,0,0.015); }
+  </style>
+</head>
+<body>
+
+<a class="back" href="index.html">&lsaquo; All Centres</a>
+<h1>Mill Hill</h1>
+<p class="notice"> These routes are a rough guide only. Exact test routes are at the examiners' discretion and are subject to change. The Google Maps links show approximate routes based on the key waypoints.</p>
+
+<!-- ROUTE 1 -->
+<div class="route">
+  <h2>Route 1
+    <div class="btn-group"><a class="maps-btn" href="https://www.google.com/maps/dir/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London/Lyndhurst+Avenue,+Mill+Hill,+London/Deansbrook+Road,+Edgware/Deans+Lane,+Edgware/Hale+Lane,+Edgware/Edgware+Way,+Edgware/Brockley+Hill,+Stanmore/Stonegrove,+Edgware/Lyndhurst+Avenue,+Mill+Hill,+London/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London" target="_blank">Google Maps</a> <a class="gpx-btn" href="gpx/MillHill_Route1.gpx" download>GPX</a></div>
+  </h2>
+  <table>
+    <tr><th>Road</th><th>Direction</th></tr>
+    <tr><td>Driving Test Centre</td><td>Right</td></tr>
+    <tr><td>Bunns Lane</td><td>Roundabout left</td></tr>
+    <tr><td>Lyndhurst Avenue</td><td>Becomes</td></tr>
+    <tr><td>Deansbrook Rd</td><td>Roundabout right</td></tr>
+    <tr><td>Deans Lane</td><td>3rd left</td></tr>
+    <tr><td>West Way</td><td>Becomes</td></tr>
+    <tr><td>Farm Rd</td><td>End of road left</td></tr>
+    <tr><td>Hale Lane</td><td>4th right</td></tr>
+    <tr><td>The Grove</td><td>1st left</td></tr>
+    <tr><td>Hazel Gardens</td><td>End of road left</td></tr>
+    <tr><td>Edgware Way</td><td>Roundabout right 3rd exit, roundabout left</td></tr>
+    <tr><td>Brockley Hill</td><td>Roundabout ahead 2nd exit</td></tr>
+    <tr><td>Stonegrove</td><td>Becomes</td></tr>
+    <tr><td>High St</td><td>2nd traffic light left</td></tr>
+    <tr><td>Deansbrook Rd</td><td>Roundabout right 2nd exit, becomes</td></tr>
+    <tr><td>Lyndhurst Avenue</td><td>Roundabout right</td></tr>
+    <tr><td>Bunns Lane</td><td>Left</td></tr>
+    <tr><td>Driving Test Centre</td><td>&mdash;</td></tr>
+  </table>
+</div>
+
+<!-- ROUTE 2 -->
+<div class="route">
+  <h2>Route 2
+    <div class="btn-group"><a class="maps-btn" href="https://www.google.com/maps/dir/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London/Deansbrook+Road,+Edgware/Deans+Lane,+Edgware/Hale+Lane,+Edgware/Highview+Gardens,+Edgware/Stoneyfields+Lane,+Edgware/Edgwarebury+Lane,+Edgware/Hale+Lane,+Edgware/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London" target="_blank">Google Maps</a> <a class="gpx-btn" href="gpx/MillHill_Route2.gpx" download>GPX</a></div>
+  </h2>
+  <table>
+    <tr><th>Road</th><th>Direction</th></tr>
+    <tr><td>Driving Test Centre</td><td>Right</td></tr>
+    <tr><td>Lyndhurst Avenue</td><td>Becomes</td></tr>
+    <tr><td>Deansbrook Rd</td><td>Roundabout right</td></tr>
+    <tr><td>Deans Lane</td><td>4th left</td></tr>
+    <tr><td>Deans Way</td><td>End of road right</td></tr>
+    <tr><td>Grange Hill</td><td>Left</td></tr>
+    <tr><td>Deans Lane</td><td>Mini roundabout left</td></tr>
+    <tr><td>Hale Lane</td><td>5th right</td></tr>
+    <tr><td>Highview Gardens</td><td>End of road left</td></tr>
+    <tr><td>Hale Lane</td><td>2nd left</td></tr>
+    <tr><td>Stoneyfields Lane</td><td>Left</td></tr>
+    <tr><td>Watford Bypass</td><td>7th left</td></tr>
+    <tr><td>Glendale Avenue</td><td>End of road left</td></tr>
+    <tr><td>Purcells Avenue</td><td>End of road right</td></tr>
+    <tr><td>Edgwarebury Lane</td><td>Mini roundabout left</td></tr>
+    <tr><td>Hale Lane</td><td>Mini roundabout ahead, mini roundabout right</td></tr>
+    <tr><td>Deans Lane</td><td>Roundabout left</td></tr>
+    <tr><td>Deansbrook Rd</td><td>Mini roundabout right</td></tr>
+    <tr><td>Bunns Lane</td><td>Left</td></tr>
+    <tr><td>Driving Test Centre</td><td>&mdash;</td></tr>
+  </table>
+</div>
+
+<!-- ROUTE 3 -->
+<div class="route">
+  <h2>Route 3
+    <div class="btn-group"><a class="maps-btn" href="https://www.google.com/maps/dir/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London/Deansbrook+Road,+Edgware/Deans+Lane,+Edgware/Hale+Drive,+Edgware/Stoneyfields+Lane,+Edgware/Broadfields+Avenue,+Edgware/Hale+Lane,+Edgware/Orange+Hill+Road,+Edgware/Woodcroft+Avenue,+London+NW7/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London" target="_blank">Google Maps</a> <a class="gpx-btn" href="gpx/MillHill_Route3.gpx" download>GPX</a></div>
+  </h2>
+  <table>
+    <tr><th>Road</th><th>Direction</th></tr>
+    <tr><td>Driving Test Centre</td><td>Right</td></tr>
+    <tr><td>Bunns Lane</td><td>Roundabout left</td></tr>
+    <tr><td>Lyndhurst Avenue</td><td>Becomes</td></tr>
+    <tr><td>Deansbrook Rd</td><td>Roundabout right</td></tr>
+    <tr><td>Deans Lane</td><td>2nd right</td></tr>
+    <tr><td>Hale Drive</td><td>1st left</td></tr>
+    <tr><td>Sefton Avenue</td><td>End of road right</td></tr>
+    <tr><td>Deans Lane</td><td>Roundabout left</td></tr>
+    <tr><td>Hale Lane</td><td>3rd right</td></tr>
+    <tr><td>Stoneyfields Lane</td><td>End of road left</td></tr>
+    <tr><td>Edgware Way</td><td>Traffic light right</td></tr>
+    <tr><td>Broadfields Avenue</td><td>2nd right</td></tr>
+    <tr><td>Lynford Gardens</td><td>End of road left</td></tr>
+    <tr><td>Broadfields Avenue</td><td>Traffic light ahead, roundabout left</td></tr>
+    <tr><td>Hale Lane</td><td>Roundabout right</td></tr>
+    <tr><td>Deans Lane</td><td>Roundabout ahead</td></tr>
+    <tr><td>Orange Hill Rd</td><td>Traffic light left</td></tr>
+    <tr><td>Watling Avenue</td><td>Becomes</td></tr>
+    <tr><td>Woodcroft Avenue</td><td>End of road left</td></tr>
+    <tr><td>Bunns Lane</td><td>1st right</td></tr>
+    <tr><td>Driving Test Centre</td><td>&mdash;</td></tr>
+  </table>
+</div>
+
+<!-- ROUTE 4 -->
+<div class="route">
+  <h2>Route 4
+    <div class="btn-group"><a class="maps-btn" href="https://www.google.com/maps/dir/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London/Copthall+Drive,+Mill+Hill,+London/Watford+Way,+Mill+Hill,+London/Parson+Street,+Mill+Hill,+London/Station+Road,+Mill+Hill,+London/Edgeworth+Avenue,+Mill+Hill,+London/Aerodrome+Road,+London+NW9/Grahame+Park+Way,+London+NW9/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London" target="_blank">Google Maps</a> <a class="gpx-btn" href="gpx/MillHill_Route4.gpx" download>GPX</a></div>
+  </h2>
+  <table>
+    <tr><th>Road</th><th>Direction</th></tr>
+    <tr><td>Driving Test Centre</td><td>Left</td></tr>
+    <tr><td>Bunns Lane</td><td>Roundabout left, 2nd left</td></tr>
+    <tr><td>Copthall Drive</td><td>Left</td></tr>
+    <tr><td>Hillside Grove</td><td>Roundabout ahead</td></tr>
+    <tr><td>Parkside</td><td>Right</td></tr>
+    <tr><td>The Rise</td><td>End of road left</td></tr>
+    <tr><td>Watford Way</td><td>Traffic light ahead</td></tr>
+    <tr><td>Great North Way</td><td>Traffic light right</td></tr>
+    <tr><td>Parson St</td><td>Right</td></tr>
+    <tr><td>Ashley Lane</td><td>Left</td></tr>
+    <tr><td>Sherwood Rd</td><td>End of road left</td></tr>
+    <tr><td>Downage</td><td>End of road right</td></tr>
+    <tr><td>Parsons St</td><td>Traffic light right</td></tr>
+    <tr><td>Church Rd</td><td>Traffic light ahead</td></tr>
+    <tr><td>Station Rd</td><td>Right</td></tr>
+    <tr><td>Edgeworth Ave</td><td>End of road left</td></tr>
+    <tr><td>Talbot Crescent</td><td>End of road right, right</td></tr>
+    <tr><td>Edgeworth Ave</td><td>End of road left</td></tr>
+    <tr><td>Station Rd</td><td>Left</td></tr>
+    <tr><td>Watford Way</td><td>Traffic light left</td></tr>
+    <tr><td>Aerodrome Rd</td><td>Roundabout right</td></tr>
+    <tr><td>Grahame Park Way</td><td>3x mini roundabouts ahead, mini roundabout left</td></tr>
+    <tr><td>Bunns Lane</td><td>Right</td></tr>
+    <tr><td>Driving Test Centre</td><td>&mdash;</td></tr>
+  </table>
+</div>
+
+<!-- ROUTE 5 -->
+<div class="route">
+  <h2>Route 5
+    <div class="btn-group"><a class="maps-btn" href="https://www.google.com/maps/dir/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London/Woodcroft+Avenue,+London+NW7/Burnt+Oak+Broadway,+Edgware/Beverley+Drive,+Edgware/Cumberland+Road,+London/Honeypot+Lane,+London/Camrose+Avenue,+Edgware/Deansbrook+Road,+Edgware/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London" target="_blank">Google Maps</a> <a class="gpx-btn" href="gpx/MillHill_Route5.gpx" download>GPX</a></div>
+  </h2>
+  <table>
+    <tr><th>Road</th><th>Direction</th></tr>
+    <tr><td>Driving Test Centre</td><td>Left</td></tr>
+    <tr><td>Bunns Lane</td><td>Right</td></tr>
+    <tr><td>Woodcroft Ave/Watling Ave</td><td>2x traffic light right</td></tr>
+    <tr><td>Burnt Oak Broadway</td><td>2nd left</td></tr>
+    <tr><td>Oakleigh Ave</td><td>2nd left</td></tr>
+    <tr><td>Westleigh Gardens</td><td>Left</td></tr>
+    <tr><td>Rembrandt Rd</td><td>2nd left</td></tr>
+    <tr><td>Cotman Gardens</td><td>2nd right</td></tr>
+    <tr><td>Gainsborough Gardens</td><td>Right</td></tr>
+    <tr><td>Cotman Gardens</td><td>3rd roundabout right</td></tr>
+    <tr><td>Beverley Drive</td><td>Left</td></tr>
+    <tr><td>Queens Station Parade</td><td>Roundabout left</td></tr>
+    <tr><td>Cumberland Rd</td><td>Traffic light right</td></tr>
+    <tr><td>Honeypot Lane</td><td>Roundabout right</td></tr>
+    <tr><td>Taunton Ave/Camrose Ave</td><td>Traffic light ahead</td></tr>
+    <tr><td>Deansbrook Rd/Lyndhurst Ave</td><td>Roundabout ahead, roundabout right</td></tr>
+    <tr><td>Bunns Lane</td><td>Left</td></tr>
+    <tr><td>Driving Test Centre</td><td>&mdash;</td></tr>
+  </table>
+</div>
+
+<!-- ROUTE 6 -->
+<div class="route">
+  <h2>Route 6
+    <div class="btn-group"><a class="maps-btn" href="https://www.google.com/maps/dir/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London/Woodcroft+Avenue,+London+NW7/Montrose+Avenue,+Edgware/Grahame+Park+Way,+London+NW9/Aerodrome+Road,+London+NW9/Greyhound+Hill,+London+NW4/Station+Road,+Mill+Hill,+London/Edgeworth+Avenue,+Mill+Hill,+London/Watford+Way,+Mill+Hill,+London/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London" target="_blank">Google Maps</a> <a class="gpx-btn" href="gpx/MillHill_Route6.gpx" download>GPX</a></div>
+  </h2>
+  <table>
+    <tr><th>Road</th><th>Direction</th></tr>
+    <tr><td>Driving Test Centre</td><td>Left</td></tr>
+    <tr><td>Bunns Lane</td><td>Right</td></tr>
+    <tr><td>Woodcroft Ave/Watling Ave</td><td>4th left</td></tr>
+    <tr><td>Montrose Ave</td><td>2nd roundabout left</td></tr>
+    <tr><td>Lanacre Ave</td><td>End of road right</td></tr>
+    <tr><td>Grahame Park Way</td><td>Roundabout left</td></tr>
+    <tr><td>Aerodrome Rd</td><td>Traffic light ahead</td></tr>
+    <tr><td>Greyhound Hill</td><td>Left</td></tr>
+    <tr><td>Sunny Hill</td><td>Right</td></tr>
+    <tr><td>Hendale Ave</td><td>End of road right</td></tr>
+    <tr><td>St Mary's Crescent</td><td>End of road right</td></tr>
+    <tr><td>Greyhound Hill</td><td>Traffic light left</td></tr>
+    <tr><td>Watford Way</td><td>Traffic light right</td></tr>
+    <tr><td>Station Rd</td><td>Right</td></tr>
+    <tr><td>Edgeworth Ave</td><td>Left</td></tr>
+    <tr><td>Talbot Crescent</td><td>Right</td></tr>
+    <tr><td>Edgeworth Ave</td><td>End of road left</td></tr>
+    <tr><td>Station Rd</td><td>Traffic light left</td></tr>
+    <tr><td>Watford Way</td><td>Roundabout left</td></tr>
+    <tr><td>The Broadway</td><td>Roundabout left</td></tr>
+    <tr><td>Bunns Lane</td><td>Roundabout ahead, left</td></tr>
+    <tr><td>Driving Test Centre</td><td>&mdash;</td></tr>
+  </table>
+</div>
+
+<!-- ROUTE 7 -->
+<div class="route">
+  <h2>Route 7
+    <div class="btn-group"><a class="maps-btn" href="https://www.google.com/maps/dir/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London/Page+Street,+Mill+Hill,+London/Pursley+Road,+Mill+Hill,+London/Devonshire+Road,+Mill+Hill,+London/Holders+Hill+Road,+Mill+Hill,+London/Parson+Street,+Mill+Hill,+London/Watford+Way,+Mill+Hill,+London/The+Broadway,+Mill+Hill,+London/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London" target="_blank">Google Maps</a> <a class="gpx-btn" href="gpx/MillHill_Route7.gpx" download>GPX</a></div>
+  </h2>
+  <table>
+    <tr><th>Road</th><th>Direction</th></tr>
+    <tr><td>Driving Test Centre</td><td>Left</td></tr>
+    <tr><td>Bunns Lane</td><td>Roundabout left, roundabout right</td></tr>
+    <tr><td>Page St</td><td>Roundabout left</td></tr>
+    <tr><td>Pursley Rd</td><td>Becomes</td></tr>
+    <tr><td>Devonshire Rd</td><td>3rd right</td></tr>
+    <tr><td>Aberdare Gardens</td><td>End of road right</td></tr>
+    <tr><td>Devonshire Rd</td><td>Roundabout right 3rd exit</td></tr>
+    <tr><td>Holders Hill Rd</td><td>Traffic light ahead</td></tr>
+    <tr><td>Parson St</td><td>2nd right</td></tr>
+    <tr><td>Downage</td><td>Left</td></tr>
+    <tr><td>Great North Way</td><td>Traffic light ahead</td></tr>
+    <tr><td>Watford Way</td><td>Roundabout left</td></tr>
+    <tr><td>The Broadway</td><td>Roundabout left</td></tr>
+    <tr><td>Bunns Lane</td><td>Roundabout ahead, left</td></tr>
+    <tr><td>Driving Test Centre</td><td>&mdash;</td></tr>
+  </table>
+</div>
+
+<!-- ROUTE 8 -->
+<div class="route">
+  <h2>Route 8
+    <div class="btn-group"><a class="maps-btn" href="https://www.google.com/maps/dir/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London/Copthall+Drive,+Mill+Hill,+London/Wise+Lane,+Mill+Hill,+London/Watford+Way,+Mill+Hill,+London/Holders+Hill+Road,+Mill+Hill,+London/Devonshire+Road,+Mill+Hill,+London/Pursley+Road,+Mill+Hill,+London/Page+Street,+Mill+Hill,+London/Flower+Lane,+Mill+Hill,+London/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London" target="_blank">Google Maps</a> <a class="gpx-btn" href="gpx/MillHill_Route8.gpx" download>GPX</a></div>
+  </h2>
+  <table>
+    <tr><th>Road</th><th>Direction</th></tr>
+    <tr><td>Driving Test Centre</td><td>Left</td></tr>
+    <tr><td>Bunns Lane</td><td>Roundabout left, 2nd left</td></tr>
+    <tr><td>Copthall Drive</td><td>Becomes</td></tr>
+    <tr><td>Holmdene Avenue</td><td>End of road right</td></tr>
+    <tr><td>Parkside</td><td>End of road right</td></tr>
+    <tr><td>Wise Lane</td><td>2nd right</td></tr>
+    <tr><td>Featherstone Rd</td><td>End of road left</td></tr>
+    <tr><td>Wise Lane</td><td>2nd left</td></tr>
+    <tr><td>Parkside</td><td>1st right</td></tr>
+    <tr><td>The Rise</td><td>Left</td></tr>
+    <tr><td>Watford Way A41</td><td>Traffic light ahead</td></tr>
+    <tr><td>Great North Way</td><td>Traffic light left</td></tr>
+    <tr><td>Holders Hill Rd</td><td>Roundabout left</td></tr>
+    <tr><td>Devonshire Rd</td><td>Becomes</td></tr>
+    <tr><td>Sanders Lane</td><td>Becomes</td></tr>
+    <tr><td>Pursley Rd</td><td>Roundabout right</td></tr>
+    <tr><td>Page St</td><td>Roundabout left</td></tr>
+    <tr><td>Bunns Lane</td><td>3rd right</td></tr>
+    <tr><td>Flower Lane</td><td>End of road left</td></tr>
+    <tr><td>The Broadway</td><td>Roundabout left</td></tr>
+    <tr><td>Bunns Lane</td><td>Roundabout ahead, left</td></tr>
+    <tr><td>Driving Test Centre</td><td>&mdash;</td></tr>
+  </table>
+</div>
+
+<!-- ROUTE 9 -->
+<div class="route">
+  <h2>Route 9
+    <div class="btn-group"><a class="maps-btn" href="https://www.google.com/maps/dir/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London/Woodcroft+Avenue,+London+NW7/Orange+Hill+Road,+Edgware/Deans+Lane,+Edgware/Hale+Lane,+Edgware/Broadfields+Avenue,+Edgware/Deans+Way,+Edgware/Grange+Hill,+Edgware/Hale+Lane,+Edgware/Mill+Hill+Driving+Test+Centre,+Bunns+Lane,+London" target="_blank">Google Maps</a> <a class="gpx-btn" href="gpx/MillHill_Route9.gpx" download>GPX</a></div>
+  </h2>
+  <table>
+    <tr><th>Road</th><th>Direction</th></tr>
+    <tr><td>Driving Test Centre</td><td>Left</td></tr>
+    <tr><td>Bunns Lane</td><td>Right</td></tr>
+    <tr><td>Woodcroft Avenue</td><td>Becomes</td></tr>
+    <tr><td>Watling Avenue</td><td>Traffic light right</td></tr>
+    <tr><td>Orange Hill Rd</td><td>Roundabout ahead</td></tr>
+    <tr><td>Deans Lane</td><td>2nd left</td></tr>
+    <tr><td>West Way/Farm Rd</td><td>End of road left</td></tr>
+    <tr><td>Hale Lane</td><td>2nd right</td></tr>
+    <tr><td>Highview Avenue</td><td>Becomes</td></tr>
+    <tr><td>Highview Gardens</td><td>1st right</td></tr>
+    <tr><td>Highview Avenue</td><td>Left</td></tr>
+    <tr><td>Watford Bypass</td><td>Traffic light left</td></tr>
+    <tr><td>Broadfields Avenue</td><td>Mini roundabout left</td></tr>
+    <tr><td>Hale Lane</td><td>2nd right</td></tr>
+    <tr><td>Farm Rd</td><td>1st left</td></tr>
+    <tr><td>Deans Way</td><td>1st left</td></tr>
+    <tr><td>Orchard Crescent</td><td>End of road right</td></tr>
+    <tr><td>Grange Hill</td><td>Left</td></tr>
+    <tr><td>Deans Lane</td><td>Double mini roundabout right</td></tr>
+    <tr><td>Hale Lane</td><td>Mini roundabout right</td></tr>
+    <tr><td>Bunns Lane</td><td>Mini roundabout ahead, left</td></tr>
+    <tr><td>Driving Test Centre</td><td>&mdash;</td></tr>
+  </table>
+</div>
+
+</body>
+</html>
