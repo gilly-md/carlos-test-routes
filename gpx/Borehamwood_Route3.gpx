@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="passmefast-routes" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Borehamwood Route 3</name>
+    <desc>Borehamwood driving test centre — route 3 of 5. Waypoints at key junctions; your GPS calculates the path between them.</desc>
+  </metadata>
+  <rte>
+    <name>Borehamwood Route 3</name>
+    <rtept lat="51.6458" lon="-0.2535"><name>Driving Test Centre</name></rtept>
+    <rtept lat="51.6498" lon="-0.2560"><name>Chester Road</name></rtept>
+    <rtept lat="51.6545" lon="-0.2590"><name>Balmoral Drive</name></rtept>
+    <rtept lat="51.6555" lon="-0.2580"><name>Ashley Drive</name></rtept>
+    <rtept lat="51.6599" lon="-0.2643"><name>Furzehill Road</name></rtept>
+    <rtept lat="51.6605" lon="-0.2780"><name>Barnet Lane</name></rtept>
+    <rtept lat="51.6610" lon="-0.2980"><name>Elstree Road</name></rtept>
+    <rtept lat="51.6604" lon="-0.3127"><name>Aldenham Road</name></rtept>
+    <rtept lat="51.6432" lon="-0.3141"><name>Butterfly Lane</name></rtept>
+    <rtept lat="51.6541" lon="-0.3014"><name>Watling Street</name></rtept>
+    <rtept lat="51.6600" lon="-0.2780"><name>Allum Lane</name></rtept>
+    <rtept lat="51.6624" lon="-0.2672"><name>Shenley Road</name></rtept>
+    <rtept lat="51.6515" lon="-0.2587"><name>Manor Way</name></rtept>
+    <rtept lat="51.6458" lon="-0.2535"><name>Driving Test Centre</name></rtept>
+  </rte>
+</gpx>

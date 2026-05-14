@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="passmefast-routes" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Borehamwood Route 2</name>
+    <desc>Borehamwood driving test centre — route 2 of 5. Waypoints at key junctions; your GPS calculates the path between them.</desc>
+  </metadata>
+  <rte>
+    <name>Borehamwood Route 2</name>
+    <rtept lat="51.6458" lon="-0.2535"><name>Driving Test Centre</name></rtept>
+    <rtept lat="51.6442" lon="-0.2542"><name>Warwick Road</name></rtept>
+    <rtept lat="51.6431" lon="-0.2410"><name>Elstree Way</name></rtept>
+    <rtept lat="51.6535" lon="-0.2510"><name>Stirling Corner Roundabout</name></rtept>
+    <rtept lat="51.6213" lon="-0.2547"><name>A41 Edgware Way</name></rtept>
+    <rtept lat="51.6227" lon="-0.2691"><name>Elstree Hill</name></rtept>
+    <rtept lat="51.6435" lon="-0.2855"><name>Allum Lane</name></rtept>
+    <rtept lat="51.6519" lon="-0.2850"><name>Shenley Road</name></rtept>
+    <rtept lat="51.6624" lon="-0.2672"><name>Furzehill Road / Melrose</name></rtept>
+    <rtept lat="51.6500" lon="-0.2720"><name>Vale Avenue</name></rtept>
+    <rtept lat="51.6546" lon="-0.2680"><name>Balmoral Drive</name></rtept>
+    <rtept lat="51.6510" lon="-0.2615"><name>Chester Road</name></rtept>
+    <rtept lat="51.6458" lon="-0.2535"><name>Driving Test Centre</name></rtept>
+  </rte>
+</gpx>

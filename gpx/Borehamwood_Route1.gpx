@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="passmefast-routes" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Borehamwood Route 1</name>
+    <desc>Borehamwood driving test centre — route 1 of 5. Waypoints at key junctions; your GPS calculates the path between them.</desc>
+  </metadata>
+  <rte>
+    <name>Borehamwood Route 1</name>
+    <rtept lat="51.6458" lon="-0.2535"><name>Driving Test Centre</name></rtept>
+    <rtept lat="51.6479" lon="-0.2548"><name>Warwick Road</name></rtept>
+    <rtept lat="51.6515" lon="-0.2587"><name>Manor Way</name></rtept>
+    <rtept lat="51.6510" lon="-0.2625"><name>Arundel Drive</name></rtept>
+    <rtept lat="51.6494" lon="-0.2633"><name>Cranes Way</name></rtept>
+    <rtept lat="51.6458" lon="-0.2616"><name>Furzehill Road</name></rtept>
+    <rtept lat="51.6438" lon="-0.2700"><name>Barnet Lane</name></rtept>
+    <rtept lat="51.6429" lon="-0.2856"><name>Barnet Road</name></rtept>
+    <rtept lat="51.6432" lon="-0.3013"><name>Galley Lane (Arkley)</name></rtept>
+    <rtept lat="51.6470" lon="-0.3030"><name>A1 Barnet Bypass</name></rtept>
+    <rtept lat="51.6500" lon="-0.2998"><name>Balmoral Drive</name></rtept>
+    <rtept lat="51.6510" lon="-0.2570"><name>Chester Road</name></rtept>
+    <rtept lat="51.6458" lon="-0.2535"><name>Driving Test Centre</name></rtept>
+  </rte>
+</gpx>
